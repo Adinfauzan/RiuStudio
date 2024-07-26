@@ -54,8 +54,8 @@ export default function Hero() {
           </motion.p>
           <motion.h1
             className={clsx(
-              'text-right font-neutralBold text-5xl',
-              'md:text-[3.25rem]',
+              'text-right font-neutraLight text-5xl',
+              'md:text-[1rem]',
               'lg:text-7xl'
             )}
             variants={variants}
@@ -67,15 +67,6 @@ export default function Hero() {
             Build A Website For Your Needs
           </motion.h1>
         </div>
-      </div>
-      <div className='grid-12 gap-4'>
-        <Image
-          src={furnitureOne}
-          alt='furniture-one'
-          figureClassName={clsx(
-            'col-start-1 col-end-13 h-fit w-full overflow-hidden rounded-xl'
-          )}
-        />
       </div>
     </section>
   );
