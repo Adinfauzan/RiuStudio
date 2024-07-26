@@ -36,7 +36,7 @@ export default function About() {
         transition={{ duration: 0.7 }}
       >
         <p className={clsx('text-justify text-sm', 'md:max-w-[50%]')}>
-          <strog>RiuStudio</strog> adalah penyedia jasa pembuatan website yang fokus pada desain responsif, user-friendly, dan SEO-optimized.
+          <strong>RiuStudio</strong> adalah penyedia jasa pembuatan website yang fokus pada desain responsif, user-friendly, dan SEO-optimized.
           Kami membantu bisnis Anda untuk membangun kehadiran online yang kuat dan efektif.
         </p>
         <Image
