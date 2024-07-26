@@ -31,7 +31,7 @@ export default function Hero() {
           exit={'exit'}
           transition={{ duration: 0.75, delay: 0.25 }}
         >
-          Riu
+          RiuStudio
         </motion.h1>
         <div
           className={clsx(
@@ -64,7 +64,7 @@ export default function Hero() {
             exit={'exit'}
             transition={{ duration: 0.75, delay: 0.25 }}
           >
-            Studio
+            Build A Website For Your Needs
           </motion.h1>
         </div>
       </div>
