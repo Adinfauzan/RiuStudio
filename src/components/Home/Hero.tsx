@@ -31,7 +31,7 @@ export default function Hero() {
           exit={'exit'}
           transition={{ duration: 0.75, delay: 0.25 }}
         >
-          Delightful Product
+          Riu
         </motion.h1>
         <div
           className={clsx(
@@ -51,7 +51,6 @@ export default function Hero() {
             exit={'exit'}
             transition={{ duration: 0.75, delay: 0.5 }}
           >
-            Living on the Edge of Design: Our Modern Furniture
           </motion.p>
           <motion.h1
             className={clsx(
@@ -65,7 +64,7 @@ export default function Hero() {
             exit={'exit'}
             transition={{ duration: 0.75, delay: 0.25 }}
           >
-            Worth Elegant
+            Studio
           </motion.h1>
         </div>
       </div>
